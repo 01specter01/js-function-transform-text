@@ -18,13 +18,12 @@ capitalizeFirstLetter();
 console.log("----------------Aufgabe 2---------------");
 
 function wordCount30(str) {
-    return str.split(" ", 30).length;
+    let words = `Progressively repurpose best-of-breed markets whereas functional value. Collaboratively incubate multifunctional core competencies and mission-critical manufactured products. Uniquely restore progressive bandwidth rather than timely initiatives. Interactively exploit client-centric e-business without convergence. Intrinsicly brand open-source infomediaries vis-a-vis economically sound expertise.`;
+    let words1 = words.split(" ");
+    let wordLength = words1.length;
 }
-console.log(
-    wordCount30(
-        `Progressively repurpose best-of-breed markets whereas functional value. Collaboratively incubate multifunctional core competencies and mission-critical manufactured products. Uniquely restore progressive bandwidth rather than timely initiatives. Interactively exploit client-centric e-business without convergence. Intrinsicly brand open-source infomediaries vis-a-vis economically sound expertise.`
-    )
-);
+
+console.log(wordLength);
 wordCount30(str);
 
 // 3. Kombiniere beide Funktionen, sodass ein übergebener Text gekürzt und die Anfangsbuchstaben der Wörter in Großbuchstaben ausgegeben werden.
