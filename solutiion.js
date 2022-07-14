@@ -17,6 +17,16 @@ capitalizeFirstLetter();
 // 2. Entwickle eine Funktion, die einen gegebenen Text auf maximal 30 Wörter gekürzt zurückgibt. Ist der Text länger als 30 Wörter, soll in der Ausgabe ein "..." am Ende angefügt werden.
 console.log("----------------Aufgabe 2---------------");
 
+function wordCount30(str) {
+    return str.split(" ", 30).length;
+}
+console.log(
+    wordCount30(
+        `Progressively repurpose best-of-breed markets whereas functional value. Collaboratively incubate multifunctional core competencies and mission-critical manufactured products. Uniquely restore progressive bandwidth rather than timely initiatives. Interactively exploit client-centric e-business without convergence. Intrinsicly brand open-source infomediaries vis-a-vis economically sound expertise.`
+    )
+);
+wordCount30(str);
+
 // 3. Kombiniere beide Funktionen, sodass ein übergebener Text gekürzt und die Anfangsbuchstaben der Wörter in Großbuchstaben ausgegeben werden.
 console.log("----------------Aufgabe 3---------------");
 
